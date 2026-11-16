@@ -1,5 +1,5 @@
-# strudel-TalkIt
-A TalkIt-inspired function for text-to-speech in Strudel.
+# Strudel TalkIt
+A saw-wave based function for text-to-speech in Strudel.
 
 ## Importing Strudel TalkIt
 Paste this line to the top of your sketch:
