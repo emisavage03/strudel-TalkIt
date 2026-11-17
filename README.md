@@ -10,7 +10,7 @@ await import('https://cdn.jsdelivr.net/gh/emisavage03/strudel-talkit@v1.0.0/talk
 
 ## Using Strudel TalkIt
 Getting this out of the way first: I have little formalized knowledge of TTS synthesizers, so I used Claude to write the code. 
-<img width="600" height="250" alt="image" src="https://github.com/user-attachments/assets/d8162505-9c70-49f3-99df-5867b1e1524f" />
+<img width="600" height="250" alt="elephant in the room" src="https://github.com/user-attachments/assets/6b1bee80-3492-46e5-89c8-e4169a4202d6" />
 
 ### Here's how it works:
 Each event (note/section of notes) speaks one chunk of text on that event’s pitch, so you write one syllable or word per note. The text goes through simple English spelling rules into phonemes. A source oscillator runs through formant filters, with noise for s/sh/f and stop bursts, and the vowels stretch to fill the note.
